@@ -228,7 +228,7 @@ proc proc_run_sim {line} {
                     set value [lindex $input($name,data)  $i]; # get data of the element
                     if { $value != "" } {
                         if { [ catch {
-                            force -deposit $path [format %x $value]
+                            force -deposit $path 'd$value
                         } err ] } { puts "error setting  $path with $value \n $err\n"}
                     }
                 }

@@ -63,6 +63,7 @@ print("# Model: A*B")
 print(dataA*dataB)
 print("# HDL result:")
 print(dataC)
+print(valid_out)
 
 # ---------------------------------------------------------
 # close simulator

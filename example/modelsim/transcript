@@ -1,0 +1,343 @@
+# do ./modelsim_do_example.tcl
+# ../src/example_top.vhd
+# ../src/example_top.vhd ../tb/example_top_tb.vhd
+# work.example_top_tb
+# ** Warning: (vlib-34) Library already exists at "designLibrary".
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work designLibrary 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:44 on Aug 12,2020
+# vcom -2008 ../src/example_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity example_top
+# -- Compiling architecture beh of example_top
+# End time: 21:33:44 on Aug 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:44 on Aug 12,2020
+# vcom -2008 ../tb/example_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity example_top_tb
+# -- Compiling architecture sim of example_top_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity example_top
+# End time: 21:33:44 on Aug 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.example_top_tb 
+# Start time: 21:33:44 on Aug 12,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.example_top_tb(sim)
+# Loading work.example_top(beh)
+# uut/pi_data_a
+# uut/pi_data_b
+# uut/pi_valid
+# uut/po_data_c
+# uut/po_valid
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_valid as root of /example_top_tb/uut/pi_valid specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_a as root of /example_top_tb/uut/pi_data_a specified in the force.
+# ** Warning: (vsim-8780) Forcing /example_top_tb/pi_data_b as root of /example_top_tb/uut/pi_data_b specified in the force.
+# End time: 21:33:47 on Aug 12,2020, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 297
